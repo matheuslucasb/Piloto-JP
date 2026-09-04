@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# Ferramentas locais de design/skills — não fazem parte do site publicado
+_REFERENCIAS
+.claude
+.impeccable

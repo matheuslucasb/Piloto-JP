@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="S.E. João Pessoa">
+  <defs>
+    <path id="sejp-top" d="M 26 100 A 74 74 0 0 1 174 100" />
+    <path id="sejp-bottom" d="M 30 100 A 70 70 0 0 0 170 100" />
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="#ffffff" />
+
+  <text fill="#1f5130" font-family="'Big Shoulders Display', Arial, sans-serif" font-weight="800"
+        font-size="21" letter-spacing="1" text-anchor="middle">
+    <textPath href="#sejp-top" startOffset="50%">S.E. JOÃO PESSOA</textPath>
+  </text>
+  <text fill="#1f5130" font-family="'Big Shoulders Display', Arial, sans-serif" font-weight="800"
+        font-size="17" letter-spacing="1" text-anchor="middle">
+    <textPath href="#sejp-bottom" startOffset="50%">FUNDAÇÃO 05/07/32</textPath>
+  </text>
+
+  <!-- Shield -->
+  <g>
+    <path d="M100 44
+             C 128 44, 150 50, 150 50
+             L 150 120
+             C 150 148, 100 162, 100 162
+             C 100 162, 50 148, 50 120
+             L 50 50
+             C 50 50, 72 44, 100 44 Z"
+          fill="#e9b824" />
+    <path d="M100 50
+             C 124 50, 144 55, 144 55
+             L 144 119
+             C 144 142, 100 154, 100 154
+             C 100 154, 56 142, 56 119
+             L 56 55
+             C 56 55, 76 50, 100 50 Z"
+          fill="#2c6b3c" />
+
+    <!-- Diagonal stripes, clipped to the shield -->
+    <clipPath id="sejp-shield">
+      <path d="M100 50 C 124 50, 144 55, 144 55 L 144 119 C 144 142, 100 154, 100 154 C 100 154, 56 142, 56 119 L 56 55 C 56 55, 76 50, 100 50 Z" />
+    </clipPath>
+    <g clip-path="url(#sejp-shield)" stroke="#e9b824" stroke-width="9" stroke-linecap="square">
+      <line x1="44" y1="150" x2="150" y2="44" />
+      <line x1="64" y1="158" x2="170" y2="52" />
+    </g>
+
+    <text x="76" y="82" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="20" text-anchor="middle">S</text>
+    <text x="76" y="104" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="20" text-anchor="middle">E</text>
+    <text x="122" y="118" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="20" text-anchor="middle">J</text>
+    <text x="122" y="140" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="20" text-anchor="middle">P</text>
+  </g>
+</svg>
